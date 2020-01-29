@@ -22,7 +22,7 @@ attr_accessor :sender, :receiver, :status, :amount
       return "Transaction rejected. Please check your account balance."
     end
   end
-    
+  end 
  end 
  
  def reverse_transfer
