@@ -23,4 +23,7 @@ attr_reader :name
     false
  end 
  end 
+ def close_account
+  @status = ""
+ end 
 end 
