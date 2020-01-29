@@ -14,6 +14,9 @@ attr_accessor :sender, :receiver, :status, :amount
  
  def execute_transaction
   if sender.valid? == false
+    @status = "rejected"
+  elsif 
+    
  end 
  
  def reverse_transfer
