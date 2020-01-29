@@ -24,7 +24,7 @@ attr_accessor :sender, :receiver, :status, :amount
   end
  
  def reverse_transfer
-  
+    if @status == "complete"
  end 
  
 end
